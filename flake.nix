@@ -20,6 +20,7 @@
 
       shellHook = ''
         echo "Entering dust_cpu Development Environment..."
+        codium ./
         '';
       };
     };
