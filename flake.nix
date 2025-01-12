@@ -19,7 +19,7 @@
         ];
 
       shellHook = ''
-        echo "Entering Fusion360 Development Environment..."
+        echo "Entering dust_cpu Development Environment..."
         '';
       };
     };
