@@ -1,0 +1,8 @@
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.full in fifo
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.empty in fifo
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.empty in fifo
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.full in fifo
+@E: MF420 |Netlist read from file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\layer0.srs failed
+@E:Cannot find top netlist, aborting.Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

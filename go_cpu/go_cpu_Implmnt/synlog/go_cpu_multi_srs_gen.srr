@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Selected library: work cell: cpu_top view rtl as top level
+@N: NF107 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Selected library: work cell: cpu_top view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep 06 01:51:01 2024
+
+###########################################################]

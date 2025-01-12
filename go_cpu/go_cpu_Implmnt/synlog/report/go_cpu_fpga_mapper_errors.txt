@@ -1,0 +1,1 @@
+@E: BN314 :"c:\users\ed\documents\goboardprojects\prj_x_gocpu\decoder\decoder.vhd":39:4:39:5|Net GND in work.decoder(rtl) has multiple drivers. 

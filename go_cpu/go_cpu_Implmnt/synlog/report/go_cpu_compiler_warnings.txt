@@ -1,0 +1,21 @@
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_result.wr_ena. Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.full are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.empty are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":16:4:16:13|Input port bits 31 to 4 of i_disp_num(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL249 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Initial value is not supported on state machine state
+@W: CL138 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":152:6:152:7|Removing register 'o_hw_error.wr_ena' because it is only assigned 0 or its original value.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Pruning register bits 15 to 8 of w_out_register.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":18:4:18:11|Input port bit 5 of i_hw_cmd(0 to 5) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":19:4:19:13|Input port bits 16 to 9 of i_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":210:19:210:21|Output o_hw_error has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 15 to 6 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 3 to 1 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL257 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_error.data(0). Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":23:4:23:15|Input port bits 15 to 8 of i_instr_addr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":27:4:27:18|Input port bits 16 to 9 of i_addr_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bit 11 of i_instr(23 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bits 1 to 0 of i_instr(23 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":43:4:43:13|Input port bit 0 of i_data_wrb(16 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":52:4:52:12|Input port bits 16 to 1 of i_hwm_reg(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+

@@ -1,0 +1,44 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":10:7:10:16|Synthesizing work.ram_module.rtl.
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":8:7:8:13|Synthesizing work.decoder.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":9:7:9:28|Synthesizing work.algorithmic_logic_unit.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":10:7:10:16|Synthesizing work.hw_manager.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":10:7:10:13|Synthesizing work.uart_tx.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":40:13:40:14|Using onehot encoding for type sm_tx. For example, enumeration idle is mapped to "10000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":10:7:10:16|Synthesizing work.uart_recvr.rtl.
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":44:13:44:14|Using sequential encoding for type rx_sm.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":6:7:6:10|Synthesizing work.fifo.rtl.
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":20:9:20:16|Found RAM r_memory, depth=16, width=8
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":12:7:12:18|Synthesizing work.sev_seg_disp.rtl.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":58:4:58:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Trying to extract state machine for register state.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.wr_ena is always 1.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(8) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(9) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(10) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(11) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(12) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(13) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(14) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(15) is always 0.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":77:4:77:5|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

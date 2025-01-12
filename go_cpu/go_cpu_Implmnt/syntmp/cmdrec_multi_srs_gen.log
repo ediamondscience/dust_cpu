@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_comp.srs  -osyn  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_mult.srs  -log  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\go_cpu_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_comp.srs|io:i|time:1725609059|size:233042|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_mult.srs|io:o|time:1725609061|size:123442|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\go_cpu_multi_srs_gen.srr|io:o|time:1725609061|size:831|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1704010357|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1704010359|size:3947520|exec:1

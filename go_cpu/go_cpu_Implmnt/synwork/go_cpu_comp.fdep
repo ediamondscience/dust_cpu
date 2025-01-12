@@ -1,0 +1,98 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\go_cpu\\go_cpu_Implmnt\\synwork\\go_cpu_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1704010357
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1704010363
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1704010363
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\algorithmic_logic_unit\\alu_types.vhd":1726887455
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\decoder\\decoder_types.vhd":1726817530
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\hw_manager\\hw_manager_types.vhd":1726292871
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\seven_seg_disp\\gen_7_seg_disp.vhd":1721363248
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\uart_usb\\gen_uart_tx.vhd":1725003017
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\uart_usb\\gen_uart_recv.vhd":1725003008
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\fifo\\fifo_types.vhd":1725520007
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\register_transfer\\register_transfer.vhd":1727068469
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\algorithmic_logic_unit\\algorithmic_logic_unit.vhd":1727169965
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\interpreter\\interpreter_types.vhd":1727084088
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\decoder\\decoder.vhd":1726817546
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\fifo\\fifo.vhd":1727084406
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\hw_manager\\hw_manager.vhd":1727086001
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\interpreter\\interpreter.vhd":1727084164
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\ram_accessor\\ram_module.vhd":1727084061
+#CUR:"C:\\Users\\ed\\Documents\\GoBoardProjects\\prj_x_goCpu\\ed_cpu_top.vhd":1727086037
+0			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd" vhdl
+1			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd" vhdl
+2			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd" vhdl
+3			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder_types.vhd" vhdl
+4			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd" vhdl
+5			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd" vhdl
+6			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd" vhdl
+7			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd" vhdl
+8			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd" vhdl
+9			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd" vhdl
+10			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd" vhdl
+11			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd" vhdl
+12			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd" vhdl
+13			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd" vhdl
+14			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo_types.vhd" vhdl
+15			"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\register_transfer\register_transfer.vhd" vhdl
+#Dependency Lists(Uses List)
+0 15 7 6 3 1 8 9 4 2 5
+1 -1
+2 15 1
+3 -1
+4 3 7
+5 15 6 7 14 11 12 13 10
+6 -1
+7 3
+8 15 6 7 3 1
+9 15
+10 -1
+11 -1
+12 -1
+13 14
+14 -1
+15 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0 2 8
+2 0
+3 0 4 7 8
+4 0
+5 0
+6 0 5 8
+7 0 4 5 8
+8 0
+9 0
+10 5
+11 5
+12 5
+13 5
+14 5 13
+15 0 2 5 8 9
+#Design Unit to File Association
+module work fifo 13
+arch work fifo rtl 13
+module work uart_recvr 12
+arch work uart_recvr rtl 12
+module work uart_tx 11
+arch work uart_tx rtl 11
+module work sev_seg_disp 10
+arch work sev_seg_disp rtl 10
+module work ram_module 9
+arch work ram_module rtl 9
+module work interpreter 8
+arch work interpreter rtl 8
+module work hw_manager 5
+arch work hw_manager rtl 5
+module work decoder 4
+arch work decoder rtl 4
+module work algorithmic_logic_unit 2
+arch work algorithmic_logic_unit rtl 2
+module work cpu_top 0
+arch work cpu_top rtl 0

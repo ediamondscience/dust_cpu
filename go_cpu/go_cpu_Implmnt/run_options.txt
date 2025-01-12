@@ -1,0 +1,84 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\run_options.txt
+#--  Written on Tue Sep 24 03:26:17 2024
+
+
+#project files
+add_file -vhdl -lib work "../ed_cpu_top.vhd"
+add_file -vhdl -lib work "../algorithmic_logic_unit/alu_types.vhd"
+add_file -vhdl -lib work "../algorithmic_logic_unit/algorithmic_logic_unit.vhd"
+add_file -vhdl -lib work "../decoder/decoder_types.vhd"
+add_file -vhdl -lib work "../decoder/decoder.vhd"
+add_file -vhdl -lib work "../hw_manager/hw_manager.vhd"
+add_file -vhdl -lib work "../hw_manager/hw_manager_types.vhd"
+add_file -vhdl -lib work "../interpreter/interpreter_types.vhd"
+add_file -vhdl -lib work "../interpreter/interpreter.vhd"
+add_file -vhdl -lib work "../ram_accessor/ram_module.vhd"
+add_file -vhdl -lib work "../seven_seg_disp/gen_7_seg_disp.vhd"
+add_file -vhdl -lib work "../uart_usb/gen_uart_tx.vhd"
+add_file -vhdl -lib work "../uart_usb/gen_uart_recv.vhd"
+add_file -vhdl -lib work "../fifo/fifo.vhd"
+add_file -vhdl -lib work "../fifo/fifo_types.vhd"
+add_file -vhdl -lib work "../register_transfer/register_transfer.vhd"
+
+
+
+#implementation: "go_cpu_Implmnt"
+impl -add go_cpu_Implmnt -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology SBTiCE40
+set_option -part iCE40HX1K
+set_option -package VQ100
+set_option -speed_grade ""
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice iCE40
+set_option -maxfan 10000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -run_prop_extract 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "go_cpu_Implmnt/go_cpu.edf"
+impl -active "go_cpu_Implmnt"

@@ -1,0 +1,567 @@
+12:47:43 AM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 00:48:06 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD166 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":70:0:70:4|function body is not legal here
+@E: CD420 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":128:11:128:11|Expecting package name
+2 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+8 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 00:48:07 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 00:48:07 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:14:38 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":74:0:74:0|Expecting identifier
+@E: CD420 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":75:11:75:11|Expecting package name
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":81:2:81:2|Expecting identifier
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+9 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:14:38 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:14:38 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:17:21 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":81:2:81:2|Expecting identifier
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+2 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:17:21 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:17:21 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:17:57 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":86:14:86:15|Expecting :=
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+2 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:17:57 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:17:57 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:20:28 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+10 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Expecting identifier
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:20:28 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:20:28 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:39:37 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":46:27:46:27|No identifier "to_integer" in scope
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+10 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Expecting identifier
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:39:37 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:39:37 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:41:37 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":6:7:6:18|Top entity is set to ram_accessor.
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":12:29:12:29|No identifier "t_ra_port" in scope
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":28:32:28:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":50:20:50:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor_types.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+5 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Package ram_accessor not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+9 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Expecting identifier
+@E: CD214 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":27:2:27:7|Not a concurrent statement
+@E: CD214 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":27:2:27:7|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:41:37 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:41:37 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:44:39 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":7:7:7:18|Top entity is set to ram_accessor.
+@E: CD200 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":80:28:80:32|Misspelled variable, signal or procedure name?
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":104:20:104:20|Expecting keyword of
+2 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+6 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Expecting identifier
+@E: CD214 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":27:2:27:7|Not a concurrent statement
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":93:22:93:22|Expecting keyword of
+9 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":31:32:31:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":51:20:51:20|Expecting keyword of
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":51:20:51:20|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:44:39 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:44:39 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Wed Aug 28 01:59:07 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_accessor.vhd":7:7:7:18|Top entity is set to ram_accessor.
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":4:35:4:35|Ignoring use clause - algorithmic_logic_unit not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":6:20:6:20|Ignoring use clause - decoder not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:29:8:29|Ignoring use clause - hw_manager_types not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":9:23:9:23|Ignoring use clause - hw_manager not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":11:24:11:24|Ignoring use clause - interpreter not found ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":13:25:13:25|Ignoring use clause - ram_accessor not found ...
+@W: CD807 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Package ram_module not found, Ignoring use clause ...
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":14:23:14:23|Ignoring use clause - ram_module not found ...
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":17:7:17:9|Expecting (
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":41:18:41:18|duplicate entity name cpu_top
+@E: CD563 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:4:46:7|Expecting dot
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":47:20:47:20|Expecting keyword of
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: CD126 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":21:2:21:2|Expecting identifier
+@E: CD214 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":27:2:27:7|Not a concurrent statement
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":93:22:93:22|Expecting keyword of
+7 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":31:32:31:33|Expecting ,
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":51:20:51:20|Expecting keyword of
+9 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\filo\filo.vhd":9:12:9:13|Expecting ,
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\filo\filo.vhd":19:43:19:43|No identifier "g_depth" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\filo\filo.vhd":19:43:19:43|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:59:07 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 28 01:59:07 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds1:59:27 AM

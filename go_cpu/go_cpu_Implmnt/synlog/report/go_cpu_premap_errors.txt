@@ -1,0 +1,1 @@
+@E: BN314 :"c:\users\ed\documents\goboardprojects\prj_x_gocpu\ed_cpu_top.vhd":60:18:60:29|Net GND in work.cpu_top(rtl) has multiple drivers. 

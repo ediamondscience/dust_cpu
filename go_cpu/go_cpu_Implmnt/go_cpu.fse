@@ -1,0 +1,14 @@
+
+fsm_encoding {16544541} sequential
+
+fsm_state_encoding {16544541} idle {000}
+
+fsm_state_encoding {16544541} start {001}
+
+fsm_state_encoding {16544541} data {010}
+
+fsm_state_encoding {16544541} stop_bits {011}
+
+fsm_state_encoding {16544541} reset {100}
+
+fsm_registers {16544541} {state[2]}  {state[1]}  {state[0]} 

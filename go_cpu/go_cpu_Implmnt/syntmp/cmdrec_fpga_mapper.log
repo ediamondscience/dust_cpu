@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\report\go_cpu_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.edf   -autoconstraint  -freq 1.000   C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_prem.srd  -sap  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.sap  -otap  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.tap  -omap  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.map  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.sap  -ologparam  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\syntmp\go_cpu.plg  -osyn  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.srm  -prjdir  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\  -prjname  go_cpu_syn  -log  C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\go_cpu_fpga_mapper.srr 
+rc:2 success:0 runtime:1
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.edf|io:o|time:0|size:0|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\go_cpu_prem.srd|io:i|time:1725336694|size:322661|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.sap|io:o|time:1725336694|size:3641|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.tap|io:o|time:0|size:0|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.map|io:o|time:0|size:0|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1704010360|size:224837|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.sap|io:o|time:1725336694|size:3641|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\syntmp\go_cpu.plg|io:o|time:1725336695|size:0|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.srm|io:o|time:0|size:0|exec:0
+file:C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\go_cpu_fpga_mapper.srr|io:o|time:1725336695|size:7750|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1704010356|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1704010357|size:32355840|exec:1

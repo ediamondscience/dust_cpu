@@ -1,0 +1,2 @@
+
+: 0 work.cpu_top "C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd" 10 7 work.interpreter work.ram_module work.decoder work.algorithmic_logic_unit work.hw_manager 

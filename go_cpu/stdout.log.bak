@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    DESKTOP-CK4VJF2
+Date:        Tue Sep 24 03:26:11 2024
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch go_cpu_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\go_cpu.srr"
+Running: go_cpu_Implmnt in foreground
+
+Running go_cpu_syn|go_cpu_Implmnt
+
+Running: compile (Compile) on go_cpu_syn|go_cpu_Implmnt
+# Tue Sep 24 03:26:11 2024
+
+Running: compile_flow (Compile Process) on go_cpu_syn|go_cpu_Implmnt
+# Tue Sep 24 03:26:11 2024
+
+Running: compiler (Compile Input) on go_cpu_syn|go_cpu_Implmnt
+# Tue Sep 24 03:26:11 2024
+compiler exited with errors
+Job failed on: go_cpu_syn|go_cpu_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synlog\go_cpu_compiler.srr"
+# Tue Sep 24 03:26:12 2024
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Compile Process on go_cpu_syn|go_cpu_Implmnt
+Complete: Compile on go_cpu_syn|go_cpu_Implmnt
+Complete: Logic Synthesis on go_cpu_syn|go_cpu_Implmnt
+
+exit status=2
+
+exit status=2
+

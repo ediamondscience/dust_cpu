@@ -1,0 +1,1484 @@
+4:58:08 PM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 16:58:11 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@E: CG103 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":137:44:137:44|Expecting expression
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:39:174:48|o_register is not readable.  This may cause a simulation mismatch.
+1 error parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:11:192:14|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":193:11:193:14|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":209:20:209:20|Expecting keyword of
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 16:58:11 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 16:58:11 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 16:58:41 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@E: CD830 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":137:34:137:47|Expecting array for indexed/sliced name
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 16:58:42 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 16:58:42 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:06:54 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:39:174:48|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:11:192:14|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":193:11:193:14|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":209:20:209:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:06:54 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:06:54 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:07:27 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:11:192:14|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":193:11:193:14|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":209:20:209:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:07:27 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:07:27 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:45:01 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:11:192:14|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":193:11:193:14|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":209:20:209:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:45:01 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:45:01 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:45:45 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:28:178:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:57:178:60|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:20:192:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:45:45 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:45:45 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:46:23 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:28:178:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:57:178:60|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":191:20:191:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:46:24 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:46:24 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:46:51 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:28:178:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":179:19:179:22|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:20:192:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:46:51 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:46:51 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 17:57:04 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:28:178:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":179:19:179:22|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:20:192:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:57:04 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 17:57:04 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:21:46 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:28:178:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":179:19:179:22|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:20:192:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:21:47 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:21:47 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:29:52 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:28:175:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":176:12:176:15|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":190:20:190:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:29:52 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:29:52 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:30:14 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:28:175:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":176:12:176:15|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":190:20:190:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:30:14 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:30:14 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:30:35 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:28:175:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:57:175:60|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":188:20:188:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:30:35 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:30:35 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 2 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:31:52 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:28:175:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":175:57:175:60|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":188:20:188:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:31:52 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:31:52 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:37:54 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":176:28:176:31|Expecting ;
+@E: CD191 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":176:59:176:62|Expecting | to separate choices or => to end choices
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":190:20:190:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:37:54 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:37:54 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:38:37 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:10:178:21|Expecting ;
+@E: CD242 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:18:178:21|Expecting ;
+@E: CS187 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":178:29:178:29|Expecting =>
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":192:20:192:20|Expecting keyword of
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd
+4 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|Too many errors - aborting.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:38:37 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:38:37 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 22:39:24 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD266 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":174:40:174:49|o_register is not readable.  This may cause a simulation mismatch.
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":120:26:120:26|duplicate entity name work
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":131:20:131:20|Expecting keyword of
+10 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:39:24 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 22:39:24 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Sun Sep 22 23:13:19 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@W: CD643 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":8:31:8:31|Ignoring use clause - ram_accessor_types not found ...
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":42:44:42:44|No identifier "t_alu_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":44:43:44:43|No identifier "t_hw_port" in scope
+@E: CD255 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":46:43:46:43|No identifier "t_ra_port" in scope
+@E: CD178 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":56:21:56:28|Can't find formal i_commands
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":59:22:59:22|Expecting keyword is
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":70:22:70:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":98:22:98:22|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":109:30:109:30|duplicate entity name work
+@E: CD632 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":120:26:120:26|duplicate entity name work
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":131:20:131:20|Expecting keyword of
+10 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 23:13:19 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 22 23:13:19 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 2 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 01:41:45 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@W: CD638 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":58:9:58:22|Signal write_back_ena is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+@E: CD371 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":174:25:174:44|No matching overload for read_check_register
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 01:41:45 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 01:41:45 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 02:00:43 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@W: CD638 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":58:9:58:22|Signal write_back_ena is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+@E: CD371 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":174:25:174:44|No matching overload for read_check_register
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 02:00:44 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 02:00:44 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 02:21:10 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@W: CD638 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":58:9:58:22|Signal write_back_ena is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+@W: CD638 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":59:9:59:12|Signal arg3 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.interpreter.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":10:7:10:16|Synthesizing work.ram_module.rtl.
+Post processing for work.ram_module.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":41:9:41:16|Found RAM r_memory, depth=256, width=16
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":41:9:41:16|Found RAM r_memory, depth=256, width=16
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":8:7:8:13|Synthesizing work.decoder.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+Post processing for work.decoder.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":9:7:9:28|Synthesizing work.algorithmic_logic_unit.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@E: CD297 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":46:12:46:24|Width mismatch, location has width 32, value 16
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 02:21:11 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 02:21:11 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 03:48:54 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+@E: CD725 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":117:22:117:23|Can't associate actual.  Formal 'g_width' is unknown.
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":130:22:130:22|Expecting keyword is
+@E: CD415 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":148:20:148:20|Expecting keyword of
+3 errors parsing file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 03:48:55 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 03:48:55 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 04:07:27 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+Post processing for work.interpreter.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":10:7:10:16|Synthesizing work.ram_module.rtl.
+Post processing for work.ram_module.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":8:7:8:13|Synthesizing work.decoder.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+Post processing for work.decoder.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":9:7:9:28|Synthesizing work.algorithmic_logic_unit.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@E: CD715 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":87:2:87:9|Cast of incompatible types
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:07:28 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:07:28 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 04:09:03 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+Post processing for work.interpreter.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":10:7:10:16|Synthesizing work.ram_module.rtl.
+Post processing for work.ram_module.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":8:7:8:13|Synthesizing work.decoder.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+Post processing for work.decoder.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":9:7:9:28|Synthesizing work.algorithmic_logic_unit.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+Post processing for work.algorithmic_logic_unit.rtl
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_result.wr_ena. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":10:7:10:16|Synthesizing work.hw_manager.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":10:7:10:13|Synthesizing work.uart_tx.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":40:13:40:14|Using onehot encoding for type sm_tx. For example, enumeration idle is mapped to "10000".
+Post processing for work.uart_tx.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":10:7:10:16|Synthesizing work.uart_recvr.rtl.
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":44:13:44:14|Using sequential encoding for type rx_sm.
+Post processing for work.uart_recvr.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":6:7:6:10|Synthesizing work.fifo.rtl.
+Post processing for work.fifo.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":20:9:20:16|Found RAM r_memory, depth=16, width=8
+@A: CL282 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|Feedback mux created for signal o_fifo_out.data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.full are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.empty are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":12:7:12:18|Synthesizing work.sev_seg_disp.rtl.
+Post processing for work.sev_seg_disp.rtl
+Post processing for work.hw_manager.rtl
+Post processing for work.cpu_top.rtl
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":16:4:16:13|Input port bits 31 to 4 of i_disp_num(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.full in fifo
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.empty in fifo
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":58:4:58:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL249 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Initial value is not supported on state machine state
+@W: CL138 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":152:6:152:7|Removing register 'o_hw_error.wr_ena' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.wr_ena is always 1.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(8) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(9) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(10) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(11) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(12) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(13) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(14) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(15) is always 0.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Pruning register bits 15 to 8 of w_out_register.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":18:4:18:11|Input port bit 5 of i_hw_cmd(0 to 5) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":19:4:19:13|Input port bits 16 to 9 of i_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":210:19:210:21|Output o_hw_error has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Register bit o_error.wr_ena is always 1.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 15 to 6 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 3 to 1 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL257 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_error.data(0). Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":23:4:23:15|Input port bits 15 to 8 of i_instr_addr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":27:4:27:18|Input port bits 16 to 9 of i_addr_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":77:4:77:5|Trying to extract state machine for register state.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bit 11 of i_instr(23 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bits 1 to 0 of i_instr(23 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":43:4:43:13|Input port bit 0 of i_data_wrb(16 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":52:4:52:12|Input port bits 16 to 1 of i_hwm_reg(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.empty in fifo
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.full in fifo
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 23 04:09:04 2024
+
+###########################################################]
+@E: MF420 |Netlist read from file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\layer0.srs failed
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@E:Cannot find top netlist, aborting.Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:09:04 2024
+
+###########################################################]
+@E::Error while linking, aborting.
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:09:04 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 2 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "go_cpu_syn.prj" -log "go_cpu_Implmnt/go_cpu.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of go_cpu_Implmnt/go_cpu.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-CK4VJF2
+
+# Mon Sep 23 04:09:49 2024
+
+#Implementation: go_cpu_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Top entity is set to cpu_top.
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder_types.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo_types.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\register_transfer\register_transfer.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd changed - recompiling
+File C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ed_cpu_top.vhd":10:7:10:13|Synthesizing work.cpu_top.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":14:7:14:17|Synthesizing work.interpreter.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":83:19:83:20|Using sequential encoding for type t_sm_interp.
+Post processing for work.interpreter.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":10:7:10:16|Synthesizing work.ram_module.rtl.
+Post processing for work.ram_module.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":39:9:39:16|Found RAM r_memory, depth=256, width=16
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\decoder\decoder.vhd":8:7:8:13|Synthesizing work.decoder.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter_types.vhd":14:16:14:17|Using onehot encoding for type cpu_cmds. For example, enumeration noop is mapped to "100000000000".
+Post processing for work.decoder.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":9:7:9:28|Synthesizing work.algorithmic_logic_unit.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\alu_types.vhd":8:17:8:18|Using onehot encoding for type t_alu_cmd. For example, enumeration alu_nop is mapped to "100000".
+Post processing for work.algorithmic_logic_unit.rtl
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_result.wr_ena. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":10:7:10:16|Synthesizing work.hw_manager.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager_types.vhd":8:15:8:16|Using onehot encoding for type hw_cmds. For example, enumeration noop is mapped to "100000".
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":10:7:10:13|Synthesizing work.uart_tx.rtl.
+@N: CD231 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":40:13:40:14|Using onehot encoding for type sm_tx. For example, enumeration idle is mapped to "10000".
+Post processing for work.uart_tx.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":10:7:10:16|Synthesizing work.uart_recvr.rtl.
+@N: CD233 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":44:13:44:14|Using sequential encoding for type rx_sm.
+Post processing for work.uart_recvr.rtl
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":6:7:6:10|Synthesizing work.fifo.rtl.
+Post processing for work.fifo.rtl
+@N: CL134 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":20:9:20:16|Found RAM r_memory, depth=16, width=8
+@A: CL282 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|Feedback mux created for signal o_fifo_out.data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.full are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":28:4:28:5|All reachable assignments to o_fifo_out.empty are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@N: CD630 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":12:7:12:18|Synthesizing work.sev_seg_disp.rtl.
+Post processing for work.sev_seg_disp.rtl
+Post processing for work.hw_manager.rtl
+Post processing for work.cpu_top.rtl
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\seven_seg_disp\gen_7_seg_disp.vhd":16:4:16:13|Input port bits 31 to 4 of i_disp_num(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.full in fifo
+@E: CL219 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Multiple non-tristate drivers for net o_fifo_out.empty in fifo
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_recv.vhd":58:4:58:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL249 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\uart_usb\gen_uart_tx.vhd":54:4:54:5|Initial value is not supported on state machine state
+@W: CL138 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":152:6:152:7|Removing register 'o_hw_error.wr_ena' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.wr_ena is always 1.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(8) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(9) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(10) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(11) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(12) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(13) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(14) is always 0.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Register bit w_out_register.data(15) is always 0.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":151:4:151:5|Pruning register bits 15 to 8 of w_out_register.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":18:4:18:11|Input port bit 5 of i_hw_cmd(0 to 5) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":19:4:19:13|Input port bits 16 to 9 of i_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\hw_manager\hw_manager.vhd":210:19:210:21|Output o_hw_error has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL189 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Register bit o_error.wr_ena is always 1.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 15 to 6 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning register bits 3 to 1 of o_error.data(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL257 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\algorithmic_logic_unit\algorithmic_logic_unit.vhd":39:4:39:5|Pruning unused register o_error.data(0). Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":23:4:23:15|Input port bits 15 to 8 of i_instr_addr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\ram_accessor\ram_module.vhd":27:4:27:18|Input port bits 16 to 9 of i_addr_register(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":77:4:77:5|Trying to extract state machine for register state.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bit 11 of i_instr(23 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":19:4:19:10|Input port bits 1 to 0 of i_instr(23 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":43:4:43:13|Input port bit 0 of i_data_wrb(16 downto 0) is unused 
+@W: CL246 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\interpreter\interpreter.vhd":52:4:52:12|Input port bits 16 to 1 of i_hwm_reg(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.empty in fifo
+@E: CL229 :"C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\fifo\fifo.vhd":14:4:14:13|Unresolved tristate drivers for net o_fifo_out.full in fifo
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 23 04:09:50 2024
+
+###########################################################]
+@E: MF420 |Netlist read from file C:\Users\ed\Documents\GoBoardProjects\prj_x_goCpu\go_cpu\go_cpu_Implmnt\synwork\layer0.srs failed
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@E:Cannot find top netlist, aborting.Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:09:50 2024
+
+###########################################################]
+@E::Error while linking, aborting.
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 23 04:09:50 2024
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds4:13:10 AM
