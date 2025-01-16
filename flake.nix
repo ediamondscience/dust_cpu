@@ -13,9 +13,11 @@
       devShells.${system}.default = 
       pkgs.mkShell {
         buildInputs = with pkgs; [
-	  vscodium
-	  ghdl
-	  yosys-ghdl
+          python312Full
+          python312Packages.edalize
+	        vscodium
+	        ghdl
+	        yosys-ghdl
         ];
 
       shellHook = ''
