@@ -24,7 +24,7 @@ entity algorithmic_logic_unit is
     --! result writer
     o_result : out t_reg_writer
   );
-end algorithmic_logic_unit;
+end entity algorithmic_logic_unit;
 
 architecture RTL of algorithmic_logic_unit is
   --! Algorithmic operation result wire, split to output and carry
