@@ -6,23 +6,21 @@
   };
 
   outputs = { self, nixpkgs }:
-	  let
-	  	system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
+	let pkgs = import nixpkgs { system = "x86_64-linux"; config.allowUnfree = true; };
     in {
-      devShells.${system}.default = 
+      devShells.${pkgs.system}.default = 
       pkgs.mkShell {
         buildInputs = with pkgs; [
           python312Full
           python312Packages.edalize
-	        vscodium
+	        vscode
 	        ghdl
 	        yosys-ghdl
         ];
 
       shellHook = ''
         echo "Entering dust_cpu Development Environment..."
-        codium ./
+        code ./
         '';
       };
     };
