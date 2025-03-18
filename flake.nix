@@ -13,9 +13,9 @@
         buildInputs = with pkgs; [
           python312Full
           python312Packages.edalize
-	        vscode
-	        ghdl
-	        yosys-ghdl
+	  vscode-fhs
+	  ghdl
+	  yosys-ghdl
         ];
 
       shellHook = ''
